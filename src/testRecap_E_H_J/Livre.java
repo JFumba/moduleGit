@@ -3,7 +3,7 @@ package testRecap_E_H_J;
 public class Livre extends Bien {
     private String titre;
 
-    public Livre(float prix,String titre) {
+    public Livre(double prix,String titre) {
         super(prix);
         setTitre(titre);
     }

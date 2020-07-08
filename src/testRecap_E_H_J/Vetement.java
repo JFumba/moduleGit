@@ -3,7 +3,7 @@ package testRecap_E_H_J;
 public class Vetement extends Bien{
     private String taille;
 
-    public Vetement(float prix,String taille) {
+    public Vetement(double prix,String taille) {
         super(prix);
         setTaille(taille);
 
