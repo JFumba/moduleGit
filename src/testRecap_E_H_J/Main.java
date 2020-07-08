@@ -36,6 +36,8 @@ public class Main {
         habitant3.ajouterBiens(livre3);
         habitant4.ajouterBiens(livre4);
 */
+        Vetement test = new Vetement(12.0F , "v");
+        System.out.println(test);
         System.out.println("test");
     }
 }
