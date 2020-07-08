@@ -2,7 +2,7 @@ package testRecap_E_H_J;
 
 public class Main {
     public static void main(String[] args) {
-        /*Habitant habitant1 = new Habitant("Albert", "Polak", 9400.30);
+        Habitant habitant1 = new Habitant("Albert", "Polak", 9400.30);
         Habitant habitant2 = new Habitant("Bob", "Lonzo", 1541.7);
         Habitant habitant3 = new Habitant("Céline", "Goutier", 600.99);
         Habitant habitant4 = new Habitant("Dominique", "Dio", 9458.14);
@@ -35,13 +35,11 @@ public class Main {
         habitant2.ajouterBiens(livre1, livre2);
         habitant3.ajouterBiens(livre3);
         habitant4.ajouterBiens(livre4);
-*/
-        Vetement test = new Vetement(12.0F , "S");
-        System.out.println(test);
-        System.out.println("test");
 
-        Bijou test1 = new Bijou(15,"bleu");
-        test1.setPrix(13);
-        System.out.println(test1);
+        System.out.println("\n\n-------------------------");
+        habitant1.listePossession();
+        habitant2.listePossession();
+        habitant3.listePossession();
+        habitant4.listePossession();
     }
 }

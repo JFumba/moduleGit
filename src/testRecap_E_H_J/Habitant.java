@@ -6,14 +6,21 @@ import java.util.List;
 public class Habitant {
     private String nom;
     private String prenom;
-    private float solde;
-    private List<Bien> collection;
+    private double solde;
+    private List<Bien> collection = new ArrayList<>();
 
-    public Habitant(String nom, String prenom, float solde, List<Bien> collection) {
+    public Habitant(String nom, String prenom, double solde, List<Bien> collection) {
         this.nom = nom;
         this.prenom = prenom;
         this.solde = solde;
         this.collection = collection;
+    }
+
+    // surcharge constructor sans List
+    public Habitant(String nom, String prenom, double solde) {
+        this.nom = nom;
+        this.prenom = prenom;
+        this.solde = solde;
     }
 
     public void listePossession() {
@@ -58,10 +65,18 @@ public class Habitant {
         else {
             solde -= bien.getPrix();
             collection.add(bien);
-            System.out.println(bien + "est ajouté à la collection !");
+            System.out.println(bien + " est ajouté à la collection !");
             return true;
         }
         return false;
+    }
+
+    public void ajouterBiens(Bien ... bien) {
+        for (Bien i : bien)
+        {
+            acheter(i);
+        }
+
     }
 
     public void louer() {
@@ -98,7 +113,7 @@ public class Habitant {
         this.prenom = prenom;
     }
 
-    public float getSolde() {
+    public double getSolde() {
         return solde;
     }
 
