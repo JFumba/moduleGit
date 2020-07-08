@@ -1,3 +1,18 @@
 DATAS:
+<<<<<<< HEAD
+
+
+hamid
+
+nom:FUMBA
+prénom:Jesse
+ville:LLN
+
+nouvelles infos:
+age: 32
+
+
+=======
 Elisa
 SERTYN
+>>>>>>> Elisa
