@@ -6,14 +6,13 @@ import java.util.List;
 public class Habitant {
     private String nom;
     private String prenom;
-    private float solde;
+    public double solde;
     private List<Bien> collection;
 
-    public Habitant(String nom, String prenom, float solde, List<Bien> collection) {
+    public Habitant(String nom, String prenom, double solde) {
         this.nom = nom;
         this.prenom = prenom;
         this.solde = solde;
-        this.collection = collection;
     }
 
     public void listePossession() {
@@ -80,6 +79,10 @@ public class Habitant {
         }
     }
 
+    public void ajouterBiens(Bien bien){
+        collection.add(bien);
+    }
+
 
 
     public String getNom() {
@@ -98,19 +101,11 @@ public class Habitant {
         this.prenom = prenom;
     }
 
-    public float getSolde() {
+    public double getSolde() {
         return solde;
     }
 
     public void setSolde(float solde) {
         this.solde = solde;
-    }
-
-    public List<Bien> getCollection() {
-        return collection;
-    }
-
-    public void setCollection(List<Bien> collection) {
-        this.collection = collection;
     }
 }
