@@ -18,7 +18,13 @@ public class Bijou extends Bien {
 
     @Override
     public void setPrix(double prix) {
-        super.setPrix(prix);
+        if(getPrix()> prix) {
+            System.out.println("opération impossible, le prix ne peut diminuer");
+            super.setPrix(getPrix());
+        } else {
+            super.setPrix(prix);
+        }
+
     }
 
     @Override

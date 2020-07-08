@@ -39,5 +39,9 @@ public class Main {
         Vetement test = new Vetement(12.0F , "S");
         System.out.println(test);
         System.out.println("test");
+
+        Bijou test1 = new Bijou(15,"bleu");
+        test1.setPrix(13);
+        System.out.println(test1);
     }
 }
