@@ -1,5 +1,5 @@
 package testRecap_E_H_J;
 
 public interface Louer {
-    public void louer(String type);
+    public void louer(Bien bien);
 }
