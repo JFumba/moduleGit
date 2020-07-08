@@ -2,3 +2,7 @@ DATAS:
 nom:Fumba
 prénom:Jesse
 ville:LLN
+
+nouvelles infos:
+age: 32
+
