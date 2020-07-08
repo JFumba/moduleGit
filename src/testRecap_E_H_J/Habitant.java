@@ -1,9 +1,4 @@
-package GIT;
-
-import JavaPOO.POO.application.Ecoute;
-import JavaPOO.POO.application.Lecture;
-import JavaPOO.POO.application.Media;
-import JavaPOO.POO.application.Utilisateur;
+package testRecap_E_H_J;
 
 import java.util.ArrayList;
 import java.util.List;
