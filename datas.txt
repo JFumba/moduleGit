@@ -4,7 +4,7 @@ DATAS:
 
 hamid
 
-nom:Fumba
+nom:FUMBA
 prénom:Jesse
 ville:LLN
 
