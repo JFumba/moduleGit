@@ -23,6 +23,6 @@ public class Vetement extends Bien{
 
     @Override
     public String toString() {
-        return "Vetement à " + getPrix() + " Titre : " + getTaille();
+        return "Vetement à " + getPrix() + " Taille : " + getTaille();
     }
 }
