@@ -1,4 +1,5 @@
 DATAS:
+<<<<<<< HEAD
 
 
 hamid
@@ -11,3 +12,7 @@ nouvelles infos:
 age: 32
 
 
+=======
+Elisa
+SERTYN
+>>>>>>> Elisa
